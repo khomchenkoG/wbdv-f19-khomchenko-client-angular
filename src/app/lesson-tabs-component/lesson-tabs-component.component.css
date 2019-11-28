@@ -1,0 +1,24 @@
+.wbdv-lesson {
+  display: block;
+  background: #83E767;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%
+}
+
+.wbdv-lesson-selected {
+  display: block;
+  background: #FCA5A5;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.selected-title {
+  color: black;
+}

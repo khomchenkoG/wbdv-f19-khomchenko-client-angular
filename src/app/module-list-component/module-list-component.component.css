@@ -1,0 +1,24 @@
+.wbdv-module {
+  display: block;
+  background: #F1AB60;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%
+}
+
+.wbdv-module-selected {
+  display: block;
+  background: #FCA5A5;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.selected-title {
+  color: black;
+}

@@ -1,0 +1,9 @@
+
+<ul class="list-group">
+    <li (click)="selectModule(module)"
+      *ngFor="let module of modules" [className]="module.id === activeModule ? 'nav-link wbdv-link wbdv-module-selected' : 'nav-link wbdv-link wbdv-module'">
+      <a routerLink="/course/{{courseId}}/modules/{{module.id}}/lessons">
+        {{module.title}}
+      </a>
+    </li>
+  </ul>

@@ -1,0 +1,45 @@
+<div class="container-fluid">
+  <h1>Course Navigator</h1>
+  <div class="row">
+  <div class="col-3">
+    <ul class="list-group">
+      <li (click)="selectCourse(course)"
+          *ngFor="let course of courses"
+          [className]="course.id === activeCourse ? 'nav-link wbdv-course-selected' : 'nav-link wbdv-course'">
+        <a routerLink="/course/{{course.id}}/modules">
+        {{course.title}}
+      </a>
+      </li>
+    </ul>
+  </div>
+    <div class="col-2">
+      <app-module-list></app-module-list>
+    </div>
+    <div class="col-2">
+    <app-lesson-tabs></app-lesson-tabs>
+    </div>
+    <div class="col-2">
+      <app-topic-pills></app-topic-pills>
+    </div>
+    <div class="col-3">
+      <app-widget-list></app-widget-list>
+    </div>
+
+</div>
+</div>
+
+
+<!--  <ul class="list-group">-->
+<!--    <li *ngFor="let lesson of lessons" class="list-group-item">-->
+<!--      {{lesson.title}}-->
+<!--    </li>-->
+
+
+<!--  </div>-->
+<!--    <div class="col-3">-->
+<!--        <ul class="list-group">-->
+<!--          <li *ngFor="let module of modules" class="list-group-item">-->
+<!--            {{module.title}}-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--    </div>-->

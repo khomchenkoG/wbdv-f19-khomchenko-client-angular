@@ -1,0 +1,12 @@
+.menu-item {
+  display: block;
+  background: #141448;
+  text-align: center;
+  border-color: black;
+  border: 1px;
+  height: 100%
+}
+
+.menu-link {
+  color: white;
+}

@@ -1,0 +1,24 @@
+.wbdv-topic {
+  display: block;
+  background: #FF7979;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%
+}
+
+.wbdv-topic-selected {
+  display: block;
+  background: #FCA5A5;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.selected-title {
+  color: black;
+}
